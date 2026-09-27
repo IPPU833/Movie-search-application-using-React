@@ -1,0 +1,25 @@
+/* resuable code  */
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.grid {
+  /* width: 100%; */
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-4-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  max-width: 20rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
